@@ -1,0 +1,198 @@
+body {
+	background-color: #afeff2 !important;
+	color: #4e2e28 !important;
+
+}
+
+footer {
+	margin-top : 8em;
+}
+
+#footer {
+	text-align: right;
+}
+
+.footer-links li {
+	display: inline-block;
+}
+
+.container {
+	}
+
+.logo {
+	height:20px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.navbar {
+	background-color: #4e2e28 !important;
+	height:80px;
+	text-align: center;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	white-space: nowrap !important;
+}
+
+.nav {
+	text-align: center;
+}
+
+.navbar-nav li {
+	margin-top: 1em;
+}
+
+.navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    color: #afeff2;
+}
+
+
+.jumbotron {
+	height: 640px;
+	background-image: url(img/student.jpg);
+	background-size: cover !important;
+	padding: 0;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	box-shadow: 2px 2px #4e2e28;
+
+}
+
+.jumbotron-heading {
+	position: relative;
+	top: 7em;
+	padding-top: 0.5em;
+	text-align: center;
+	color: #fff !important;
+	background: rgba(78,46,40, 0.5);
+}
+
+.intro {
+	margin-top: 2em;
+	font-size: 3em;
+	margin-bottom: 2em;
+}
+
+#intro-section {
+	color: #fff;
+	background-color: #4e2e28;
+	margin-top: 5em;
+	margin-bottom: 8em;
+	box-shadow: 2px 2px 2px #4e2e28;
+}
+
+#info-section {
+	margin-top: 4em;
+	color: #fff;
+	background-color: #4e2e28;
+	box-shadow: 2px 2px 2px #4e2e28;
+}
+
+.info-box {
+	margin-top: 4em;
+}
+
+.info-text {
+	margin-top: 2em;
+	font-size: 1.5em;
+	padding-left: 0.5em;
+}
+
+.btn {
+	text-align: center;
+	white-space: normal;
+	margin: 2em 5em;
+	display: inline-block;
+}
+
+.social-media {
+	list-style: none;
+	padding-top: 1em;
+}
+
+.social-media li {
+	display: inline;
+	padding: 2em 2em;
+}
+
+.terms {
+	margin-top: 1em;
+	padding-top: 1.5em;
+}
+
+@media (max-width: 1004px){
+.navbar {
+    font-size: 10px;
+}
+}
+
+@media (max-width: 768px) {
+	.navbar-nav {
+		background-color: #4e2e28 !important;
+	}
+}
+
+@media (min-width: 1000px) {
+  .navbar-toggle {
+    display: none !important;
+  }
+}
+
+/* About Us Page Specific Styles */
+.mission {
+	text-align: center;
+	font-size: 6em;
+	margin: 2em 2em;
+}
+
+.mission-statement {
+	font-size: 3em;
+	font-style: italic;
+}
+
+.mission-statement span {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#stat-section {
+	margin-top: 4em;
+	color: #fff;
+	background-color: #4e2e28;
+	padding-bottom: 3em;
+}
+
+.stat {
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+.figure {
+	margin-top: 5em;
+}
+
+.figure-description {
+	font-size: 2em;
+	margin-top: 2em;
+}
+
+.image-margin {
+	margin-bottom: 3em !important;
+}
+
+/* Contact Us Page Specific Styles */
+.form-label-width {
+	width:210px;
+}
+
+.icon-bar {
+	background-color: white;
+}
