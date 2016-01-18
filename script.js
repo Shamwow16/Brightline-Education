@@ -12,7 +12,7 @@ document.getElementById("nav-menu").innerHTML =  '<div class="container">' +
     '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">' +
       '<ul class="nav navbar-nav">' +
         '<li><a href="about-us.html">About Us</a></li>' +
-        '<li><a href="#">How It Works</a></li>' +
+        '<li><a href="#">Our Team</a></li>' +
         '<li><a href="#">Get Involved</a></li>' +
         '<li><a href="contact-us.html">Contact Us</a></li>' +
       '</ul>' +
