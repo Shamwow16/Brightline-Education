@@ -31,11 +31,11 @@ document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
                 '</li>' +
                 '<li><a href="contact-us.html">Contact Us</a></li>' +
             '</ul>' +
-            '<form role="search" class="navbar-form navbar-right">' +
+            /*'<form role="search" class="navbar-form navbar-right">' +
                 '<div class="form-group">' +
                     '<input type="text" placeholder="Search" class="form-control">' +
                 '</div>' +
-            '</form>' +
+            '</form>' +*/
         '</div>'
 
 document.getElementById('footer-section').innerHTML = '<div class="container">' +
