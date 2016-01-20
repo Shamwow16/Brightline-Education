@@ -34,7 +34,7 @@
     <div class="form-group form-margin">
         <label for="first-name" class="col-sm-3 control-label">First Name</label>
         <div class="col-sm-2">
-            <input type="text" class="form-control input-margin" id="first-name" name="first-name" placeholder="First Name" value="<?php echo htmlspecialchars($_POST['first-name']); ?>">
+            <input type="text" class="form-control input-margin" id="first-name" name="first-name" placeholder="First Name" value="">
             <?php echo "<p class='text-danger'>$errName</p>";?>
         </div>
 
@@ -90,6 +90,7 @@
 
 <?php
 $firstName = $_POST['first-name'];
+$lastName = $_POST['last-name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $inquiryType = $_POST['inquiry'];

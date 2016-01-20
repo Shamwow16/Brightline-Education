@@ -24,7 +24,7 @@ document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
                  '<li class="dropdown">' +
                     '<a data-toggle="dropdown" class="dropdown-toggle" href="#">Get Involved</a>' +
                     '<ul role="menu" class="dropdown-menu">' +
-                        '<li><a href="#">Volunteer Survey</a></li>' +
+                        '<li><a href="volunteer-survey.html">Volunteer Survey</a></li>' +
                         '<li><a href="#">Sponsor A Child</a></li>' +
                         '<li><a href="#">Donate</a></li>' +
                     '</ul>' +
