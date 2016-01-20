@@ -10,6 +10,9 @@ a {
 	color: #191411 !important ;
 }
 
+.info-icons {
+	font-size: 150px;
+}
 
 
 footer {
@@ -150,20 +153,28 @@ button {
   }
 }
 
+.jumbotron-container {
+	height: 800px;
+}
+
 .jumbotron {
-	height: 640px;
+	height: 1040px;
 	background-image: url(img/female-student.jpg);
 	background-size: cover !important;
 	padding: 0;
-	padding-left: 0px !important;
+	/*padding-left: 0px !important;
 	padding-right: 0px !important;
-	box-shadow: 2px 2px #4e2e28;
-
+	box-shadow: 2px 2px #4e2e28;*/
+	position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
 }
 
 .jumbotron-heading {
 	position: relative;
-	top: 7em;
+	top: 12em;
 	padding-top: 0.5em;
 	text-align: center;
 	color: #fff !important;

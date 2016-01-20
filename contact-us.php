@@ -12,6 +12,11 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
+<?php
+    $errName = "";
+
+?>
+
 </head>
 <body>
 <header role="banner">
@@ -34,7 +39,7 @@
     <div class="form-group form-margin">
         <label for="first-name" class="col-sm-3 control-label">First Name</label>
         <div class="col-sm-2">
-            <input type="text" class="form-control input-margin" id="first-name" name="first-name" placeholder="First Name" value="">
+            <input type="text" class="form-control input-margin" id="first-name" name="first-name" placeholder="First Name" value="<?php echo htmlspecialchars($_POST['first-name']); ?>">
             <?php echo "<p class='text-danger'>$errName</p>";?>
         </div>
 
@@ -89,6 +94,8 @@
 
 
 <?php
+$errName = "";
+
 $firstName = $_POST['first-name'];
 $lastName = $_POST['last-name'];
 $email = $_POST['email'];
