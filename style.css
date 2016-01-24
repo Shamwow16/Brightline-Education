@@ -1,7 +1,8 @@
 body {
-	background-color: #afeff2 !important;
-	background-image: url('img/texture.png');
-	background-repeat: repeat;
+	background-color: #60DFE5 !important;
+	/* background-color: #afeff2 !important; */
+	/* background-image: url('img/texture.png');
+	background-repeat: repeat; */
 	color: #191411 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -11,9 +12,15 @@ a {
 }
 
 .info-icons {
-	font-size: 150px;
+	font-size: 100px;
+	color: #a7f6be ;
 }
 
+.logo-row {
+	background-color: #191411 !important;
+	display: block ;
+	height: 80px;
+}
 
 footer {
 	margin-top : 8em;
@@ -113,6 +120,7 @@ button {
 
 .navbar-nav li {
 	margin-top: 1em;
+	font-size: 1.25em;
 }
 
 .navbar-nav li a {
@@ -154,11 +162,11 @@ button {
 }
 
 .jumbotron-container {
-	height: 800px;
+	height: 400px;
 }
 
 .jumbotron {
-	height: 1040px;
+	height: 800px;
 	background-image: url(img/female-student.jpg);
 	background-size: cover !important;
 	padding: 0;
@@ -216,6 +224,10 @@ button {
 	padding-left: 0.5em;
 }
 
+.social-feed {
+	margin-top: 2em;
+}
+
 .btn {
 	text-align: center;
 	white-space: normal;
@@ -249,7 +261,7 @@ button {
 
 @media (max-width: 1004px){
 .navbar {
-    font-size: 10px;
+    font-size: 1em;
 }
 }
 
@@ -268,13 +280,14 @@ button {
 /* About Us Page Specific Styles */
 .mission {
 	text-align: center;
-	font-size: 6em;
+	font-size: 4em;
 
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
 
 .mission-statement {
+	text-align: center;
 	font-size: 3em;
 	font-style: italic;
 }
@@ -291,6 +304,44 @@ button {
 	background-color: #191411;
 	padding-bottom: 3em;
 }
+
+.quote {
+
+	font-size: 1.4em;
+	font-style: italic;
+	color: #a7f6be;
+	line-height: 1.5em;
+}
+
+.punctuation-style {
+	color: #fff;
+	font-size: 1.8em;
+	padding-right: 0.2em;
+
+}
+
+.founder-image {
+	padding:1px;
+   border:1px solid #191411;
+   box-shadow: 1px 1px 2px #191411;
+}
+
+.founder-bio-name {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.founder-bio-title {
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.founder-bio-description {
+	margin-top: 2em;
+	font-size: 1.2em;
+}
+
 
 .stat {
 	margin-top: 1em;

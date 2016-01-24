@@ -19,7 +19,7 @@ document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
                     '</ul>' +
                 '</li>' +
 
-                '<li><a href="#">Our Team</a></li>' +
+                '<li><a href="our-team.html">Our Team</a></li>' +
 
                  '<li class="dropdown">' +
                     '<a data-toggle="dropdown" class="dropdown-toggle" href="#">Get Involved</a>' +

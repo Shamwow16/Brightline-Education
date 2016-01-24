@@ -18,12 +18,46 @@
 </head>
 
 <body>
+
+
 <header role="banner">
+	<div class="nav navbar-custom">
+		<div class="logo-row">
+
+			<div class="col-sm-12 text-center">
+				<a href="index.html" class="navbar-brand text-center"><img src="img/brightline_logo.png"></a>
+			</div>
+			</div>
+
+	</div>
     <nav role="navigation" id='nav-menu' class="navbar navbar-custom">
+    	<div class="navbar-header">
+    	<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	</button>
+    	</div>
+
+    	<div id="navbarCollapse" class="collapse navbar-collapse">
+    	<ul class="nav navbar-nav">
+    	<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">About Us</a>
+    	<ul role="menu" class="dropdown-menu">
+    	<li><a href="our-mission.html">Our Mission</a></li>
+    	<li><a href="#">How It Works</a></li></ul></li>
+    	<li><a href="#">Our Team</a></li>
+    	<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Get Involved</a><ul role="menu" class="dropdown-menu">
+    	<li><a href="volunteer-survey.html">Volunteer Survey</a></li>
+    	<li><a href="#">Sponsor A Child</a></li>
+    	<li><a href="#">Donate</a></li></ul></li>
+    	<li><a href="contact-us.html">Contact Us</a></li>
+    	</ul>
+    	</div>
     </nav>
 </header>
 <!-- <div class="container"> -->
-	<div class="row jumbotron-container">
+	<div class=" jumbotron-container">
 		<div class="jumbotron img-responsive">
 			<h1 class="jumbotron-heading">Sit amet placerat sapien </h1>
 		</div>
@@ -104,9 +138,23 @@
 
 </section>
 
+<section id="twitter-feed">
+	<div class="container">
+	<div class="social-feed row text-center">
+	<!-- <a class="twitter-grid" data-limit="3" href="https://twitter.com/TwitterDev/timelines/539487832448843776">National Park Tweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	 -->
+	<a class="twitter-timeline"
+	href="https://twitter.com/ShamyleG/timelines/690217170970619904"
+	data-widget-id="690218037841125376"
+	data-chrome="nofooter noborders noscrollbar transparent">Brightline Education</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	</div>
+	 </section>
+
 <footer id="footer-section">
 </footer>
 
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 </body>
 </html>
