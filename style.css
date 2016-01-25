@@ -5,6 +5,15 @@ body {
 	background-repeat: repeat; */
 	color: #191411 !important;
 	font-family: 'Lato', sans-serif;
+
+}
+
+
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
 }
 
 a {
@@ -132,11 +141,11 @@ button {
 
 .navbar {
 	background-color: #4e2e28 !important;
-	height:80px;
+	/* height:80px; */
 	text-align: center;
 	font-size: 1em;
 	letter-spacing: 0.2em;
-	white-space: nowrap !important;
+
 }
 
 .navbar-custom {
@@ -184,10 +193,37 @@ button {
 	color: #afeff2 !important;
 }
 
+@media (max-width: 768px) {
+	#nav-menu {
+		/* display: none !important; */
+		padding-bottom: 2em;
+	}
+}
+
 @media (min-width: 979px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
+}
+
+ @media (max-width: 600px) {
+	#main-page-quote {
+		visibility: hidden !important;
+	}
+
+	#brightline-logo-small-screen {
+		display: inline-block !important;
+	}
+
+	#brightline-logo-large-screen {
+		display: none !important;
+	}
+
+	#brightline-small-screen-title {
+		display: block !important;
+	}
+
+
 }
 
 .jumbotron-container {
@@ -195,50 +231,90 @@ button {
 }
 
 .jumbotron-our-goals {
-	height: 1100px;
+	height: 100%;
 	background-image: url(img/our-goals.jpg);
 	background-size: cover !important;
-	padding: 0;
-	position: absolute;
-    top:  0px;
-    width: 100%;
-    z-index: -1;
-    margin: 0;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+@media (max-width: 400px) {
+	.jumbotron-our-goals {
+		background-image: url(img/goals-small.png) !important;
+		height: auto !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
 }
 
 .jumbotron-sponsor {
-	height: 1100px;
+	height: 100%;
+	margin-bottom: 0px !important;
 	background-image: url(img/sponsor.jpg);
 	background-size: cover !important;
-	padding: 0;
-	position: absolute;
-    top:  0px;
-    width: 100%;
-    z-index: -1;
-    margin: 0;
-}
-.jumbotron-donate {
-	height: 1100px;
-	background-image: url(img/donate.jpg);
-	background-size: cover !important;
-	padding: 0;
-	position: absolute;
-    top:  0px;
-    width: 100%;
-    z-index: -1;
-    margin: 0;
 }
 
-.jumbotron-stem-education {
-	height: 1100px;
-	background-image: url(img/stem-education.jpg);
+@media (max-width: 500px) {
+	.jumbotron-sponsor {
+		background-image: url(img/sponsor-small.png) !important;
+		height: auto !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
+
+	.jumbotron-heading {
+		font-size: 0.8em;
+		font-weight: bolder;
+		background: rgba(78,46,40, 0.5);
+		border-radius: 10px 0px 0px 10px;
+		z-index: 1;
+	}
+}
+.jumbotron-donate {
+
+	/* height: 1100px; */
+	background-image: url(img/donate.jpg);
 	background-size: cover !important;
+	height: 100%;
+	margin-bottom: 0px !important;
 	padding: 0;
-	position: absolute;
-    top:  0px;
+	/* position: absolute; */
+    /* top:  0px;
     width: 100%;
     z-index: -1;
-    margin: 0;
+    margin: 0; */
+}
+
+#donate-quote {
+	margin-top: 100px;
+}
+@media (max-width: 400px) {
+	.jumbotron-donate {
+		background-image: url(img/donate-small.png) !important;
+		height: auto !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
+
+	.jumbotron-heading {
+		font-size: 0.8em;
+		font-weight: bolder;
+		background: rgba(78,46,40, 0.5);
+		border-radius: 10px 0px 0px 10px;
+		z-index: 1;
+	}
+}
+.jumbotron-stem-education {
+	/* height: 1100px; */
+	height: 100%;
+	background-image: url(img/stem-education.jpg);
+	background-size: cover !important;
+	/* padding: 0; */
+	/* position: absolute;
+	    top:  0px;
+	    width: 100%;
+	    z-index: -1;
+	    margin: 0; */
 }
 .our-goals-title {
 	font-size: 32px;
@@ -270,38 +346,97 @@ button {
 	text-align: justify;
 }
 .jumbotron-main-page {
-	height: 1100px;
+	/* height: 1100px; */
+	height: 100%;
 	background-image: url(img/female-student.jpg);
 	background-size: cover !important;
-	padding: 0;
+	margin-bottom: 0px !important;
+	/* padding: 0; */
 	/*padding-left: 0px !important;
 	padding-right: 0px !important;
 	box-shadow: 2px 2px #4e2e28;*/
-	position: absolute;
-    top:  0px;
-    width: 100%;
-    z-index: -1;
-    margin: 0;
+	/* position: absolute;
+	    top:  0px;
+	    width: 100%;
+	    z-index: -1;
+	    margin: 0; */
+}
+
+#nav-menu{
+	margin-bottom: 0px !important;
+}
+
+#intro-section {
+	margin-top: 0px !important;
+}
+
+@media (max-width: 580px) {
+	.jumbotron-main-page {
+		background-image: url(img/female-student-small.png) !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100% !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 400px) {
+	.jumbotron-main-page {
+		/* background-image: url(img/female-student-small.png) !important; */
+		height: auto !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
+
+	.jumbotron-heading {
+		font-size: 0.8em;
+		font-weight: bolder;
+		background: rgba(78,46,40, 0.5);
+		border-radius: 10px 0px 0px 10px;
+		z-index: 1;
+	}
+
+	#intro-section{
+		margin-top: 0px !important;
+	}
+
+
 }
 
 .jumbotron-the-students {
-	height: 1100px;
+	height: 100%;
 	background-image: url(img/the-students.jpg);
 	background-size: cover !important;
+	height: 100%;
+	margin-bottom: 0px !important;
+	background-size: cover !important;
 	padding: 0;
-	/*padding-left: 0px !important;
-	padding-right: 0px !important;
-	box-shadow: 2px 2px #4e2e28;*/
-	position: absolute;
-    top:  0px;
-    width: 100%;
-    z-index: -1;
-    margin: 0;
 }
 
+@media (max-width: 600px) {
+	.jumbotron-the-students {
+		background-image: url(img/the-students-small.png) !important;
+		height: auto !important;
+		padding-bottom: 50px;
+		margin-bottom: 0px;
+	}
+
+	.jumbotron-heading {
+		font-size: 0.8em;
+		font-weight: bolder;
+		background: rgba(78,46,40, 0.5);
+		border-radius: 10px 0px 0px 10px;
+		z-index: 1;
+	}
+}
+#works-quote {
+	margin-top: 100px;
+	margin-left: 2px;
+}
 .jumbotron-heading {
 	position: relative;
-	top: 700px;
+	/* top: 700px; */
 	padding: 0.5em;
 	text-align: center;
 	color: #fff !important;
@@ -400,11 +535,11 @@ button {
 	}
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .navbar-toggle {
     display: none !important;
   }
-}
+} */
 
 .navbar.navbar-custom {
 	border-radius: 0px;
@@ -535,3 +670,4 @@ button {
 .dropdown-menu-background:hover{
 	background-color: red;
 }
+

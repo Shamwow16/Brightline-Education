@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Brightline Education</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -21,9 +22,10 @@
 
 
 <header role="banner">
-    <nav role="navigation" id='nav-menu' class="navbar navbar-custom">
-    	<div class="navbar-header">
-    					<a href="index.html" class="navbar-brand text-center"><img class="logo" src="img/brightline.png"></a>
+
+    <nav role="navigation" id='nav-menu' class="navbar navbar-custom navbar-static-top">
+    	<!-- <div class="navbar-header">
+    					<a href="index.html" class="navbar-brand text-center"><img class="img-responsive logo" id="brightline-logo-large-screen" src="img/brightline.png"><img id="brightline-logo-small-screen" class="img-responsive logo" src="img/bulb.png" style="display:none;"></a>
     	<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
     	<span class="sr-only">Toggle navigation</span>
     	<span class="icon-bar"></span>
@@ -47,22 +49,25 @@
     	<li><a href="donate.html">Donate</a></li></ul></li>
     	<li><a href="contact-us.html">Contact Us</a></li>
     	</ul>
-    	</div>
+    	</div> -->
     </nav>
+
+
 </header>
 <!-- <div class="container"> -->
-	 <div class=" jumbotron-container">
+	 <!-- <div class=" jumbotron-container"> -->
 		<div class="jumbotron jumbotron-main-page img-responsive">
-			<span class="col-sm-5 col-sm-offset-7 jumbotron-heading"><p class="jumbotron-quote">&quot;If you educate a man, you educate an individual, but if you educate a woman, you educate a whole family.&quot;</p><p class="jumbotron-quote annotation">- Jawahrlal Nehru</p>
+			<span id="main-page-quote" class="col-sm-5 col-sm-offset-7 jumbotron-heading"><p class="jumbotron-quote">&quot;If you educate a man, you educate an individual, but if you educate a woman, you educate a whole family.&quot;</p><p class="jumbotron-quote annotation">- Jawahrlal Nehru</p>
 			</span>
 		</div>
-	</div>
+	<!-- </div> -->
 <!-- </div> -->
 
 <section id="intro-section">
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 intro">
+		<div class="col-sm-12 intro text-center">
+			<h2 id="brightline-small-screen-title" style ="display:none;">Brightline Education </h2>
 		</div>
 	</div>
 </div>
