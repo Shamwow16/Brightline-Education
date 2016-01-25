@@ -1,5 +1,5 @@
 body {
-	background-color: #60DFE5 !important;
+	background-color: #EDD1B9 !important;
 	/* background-color: #afeff2 !important; */
 	/* background-image: url('img/texture.png');
 	background-repeat: repeat; */
@@ -13,13 +13,40 @@ a {
 
 .info-icons {
 	font-size: 100px;
-	color: #a7f6be ;
+	color: #EDD1B9 ;
 }
 
 .logo-row {
 	background-color: #191411 !important;
 	display: block ;
 	height: 80px;
+}
+
+.how-it-works {
+}
+
+.how-it-works-title {
+
+	margin-bottom: 0.5em;
+	margin-top: 6em;
+}
+.how-it-works-description {
+
+
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.title-margin-bottom {
+	margin-bottom: 2px !important;
+}
+
+.teachers-margin {
+	margin-top: 2em;
+}
+.students-image {
+	margin-top: 5em;
+
 }
 
 footer {
@@ -48,7 +75,7 @@ footer {
   border-color: #7fa68b;
   font-size: 1.2em;
   font-weight: bold;
-  border-radius: 0 !important;
+  border-radius: 15px !important;
   border-style: solid;
   border-width: 1px;
   box-shadow: 2px 2px 4px #191411;
@@ -94,7 +121,9 @@ button {
 	}
 
 .logo {
-	height:20px;
+	top:10px;
+	height:70px;
+
 }
 
 .img-center {
@@ -162,11 +191,86 @@ button {
 }
 
 .jumbotron-container {
-	height: 400px;
+	height: 900px;
 }
 
-.jumbotron {
-	height: 800px;
+.jumbotron-our-goals {
+	height: 1100px;
+	background-image: url(img/our-goals.jpg);
+	background-size: cover !important;
+	padding: 0;
+	position: absolute;
+    top:  0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+}
+
+.jumbotron-sponsor {
+	height: 1100px;
+	background-image: url(img/sponsor.jpg);
+	background-size: cover !important;
+	padding: 0;
+	position: absolute;
+    top:  0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+}
+.jumbotron-donate {
+	height: 1100px;
+	background-image: url(img/donate.jpg);
+	background-size: cover !important;
+	padding: 0;
+	position: absolute;
+    top:  0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+}
+
+.jumbotron-stem-education {
+	height: 1100px;
+	background-image: url(img/stem-education.jpg);
+	background-size: cover !important;
+	padding: 0;
+	position: absolute;
+    top:  0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+}
+.our-goals-title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+}
+
+.page-text p {
+	margin-bottom: 2em;
+}
+
+.page-title {
+	margin-top: 6em;
+}
+
+.button-link {
+	text-decoration: none;
+}
+
+.button-link:hover {
+	text-decoration: none;
+}
+
+.text-link {
+	text-decoration: underline;
+}
+
+.justify {
+	text-align: justify;
+}
+.jumbotron-main-page {
+	height: 1100px;
 	background-image: url(img/female-student.jpg);
 	background-size: cover !important;
 	padding: 0;
@@ -174,7 +278,22 @@ button {
 	padding-right: 0px !important;
 	box-shadow: 2px 2px #4e2e28;*/
 	position: absolute;
-    top: 0px;
+    top:  0px;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+}
+
+.jumbotron-the-students {
+	height: 1100px;
+	background-image: url(img/the-students.jpg);
+	background-size: cover !important;
+	padding: 0;
+	/*padding-left: 0px !important;
+	padding-right: 0px !important;
+	box-shadow: 2px 2px #4e2e28;*/
+	position: absolute;
+    top:  0px;
     width: 100%;
     z-index: -1;
     margin: 0;
@@ -182,11 +301,21 @@ button {
 
 .jumbotron-heading {
 	position: relative;
-	top: 12em;
-	padding-top: 0.5em;
+	top: 700px;
+	padding: 0.5em;
 	text-align: center;
 	color: #fff !important;
 	background: rgba(78,46,40, 0.5);
+	border-radius: 10px 0px 0px 10px;
+}
+
+.jumbotron-heading .jumbotron-quote {
+	font-style: italic;
+	font-size: 2em;
+}
+
+.jumbotron-heading .jumbotron-quote.annotation {
+	font-size: 1.5em;
 }
 
 .intro {
@@ -277,6 +406,10 @@ button {
   }
 }
 
+.navbar.navbar-custom {
+	border-radius: 0px;
+}
+
 /* About Us Page Specific Styles */
 .mission {
 	text-align: center;
@@ -359,7 +492,10 @@ button {
 
 .image-margin {
 	margin-bottom: 3em !important;
+	margin-top: 2em;
 }
+
+
 
 /* Contact Us Page Specific Styles */
 .form-label-width {
@@ -376,4 +512,26 @@ button {
 
 .input-margin {
 	margin-bottom: 1em;
+}
+
+.page-text {
+	font-size: 2em;
+}
+
+.mission-quote {
+	font-size: 2em;
+}
+
+.unicef-link {
+	color: #ffffff !important;
+}
+
+.nehru-quote {
+	color: #EDD1B9;
+	font-style: italic;
+	font-size: 1em;
+}
+
+.dropdown-menu-background:hover{
+	background-color: red;
 }

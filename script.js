@@ -1,4 +1,4 @@
-document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
+/*document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
             '<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">' +
                 '<span class="sr-only">Toggle navigation</span>' +
                 '<span class="icon-bar"></span>' +
@@ -36,7 +36,7 @@ document.getElementById("nav-menu").innerHTML =  '<div class="navbar-header">' +
                     '<input type="text" placeholder="Search" class="form-control">' +
                 '</div>' +
             '</form>' +*/
-        '</div>'
+        /*'</div>'*/
 
 document.getElementById('footer-section').innerHTML = '<div class="container">' +
   '<div class="row">' +
